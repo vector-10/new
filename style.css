@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:white;
+    width: 100vw;
+}
+header{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:300px;
+    color:cornflowerblue;
+    font-family: Redressed;
+    font-size: large;
+}
+.pic img{
+    width: 80px;
+    height:80px;
+    border-radius: 50px;
+    margin-top:10px;
+    margin-left: 50px;
+}
+#name{
+    margin-left: 64px;
+    margin-top: 5px;
+    font-family: Redressed;
+}
+nav{
+    display: flex;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+nav ul a{
+    text-decoration: none;
+    margin-right: 100px;
+    color: black;
+}
+nav ul a:hover{
+    color: cornflowerblue;
+    border-top:1.5px solid cornflowerblue ;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    margin-top:-50px;
+}
+.text1{
+    display: flex;
+    font-size: 50px;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-family: Redressed;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+@media  (max-width:64rem) {
+    .text1{
+        margin-top: -100px;
+        text-align: center;
+        justify-content: space-around;
+        padding-left: px;
+        font-family:serif;
+        font-size: 40px;
+    }
+    
+}
+.text2{
+    display: flex;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: Redressed;
+    margin-bottom: 10px;
+}
+.calculate{
+    color: cornflowerblue;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid cornflowerblue;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+@media  (max-width:64rem) {
+    .calculate{
+        margin-left: 320px;
+    }
+    
+}
+.calculate:hover{
+    background-color: cornflowerblue;
+    color: white;
+
+}
+.factory img{
+    margin-top:-100px;
+    height: 600px;
+    width: 800px;
+}
+@media  (max-width:64rem) {
+    .factory img{
+        margin-top: 230px;
+        margin-left: -800px;
+        width: 600px;
+        height: 500px;
+    }
+    
+}
+.bar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    line-height: 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+aside img{
+    display: flex;
+    width: 12rem;
+    height: 12rem;
+
+}
+.text{
+    font-weight: bolder ;
+    font-size: 40px;
+    margin: 40px;
+    font-family: Redressed;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 20px;
+    font-family:Redressed;
+    font-size:larger;
+}
+.one p{
+    margin-top: 20px;
+}
+.two p{
+    margin-top: 20px;
+}
+.three p{
+    margin-top: 20px;
+}
+article{
+    height: 55rem;
+    background-color: rgb(238, 238, 238);
+}
+.head{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    font-family: Redressed;
+}
+@media  (max-width:64rem) {
+    .head{
+        font-size:30px;
+        padding:10px;
+        
+        }
+    
+}
+hr{
+    width:200px;
+    color: cornflowerblue;
+    margin-left: 650px;
+    margin-top: 0px;
+    border-top: 2px solid cornflowerblue;
+}
+@media  (max-width:64rem) {
+    hr{
+        margin-left: 400px;
+    }
+    
+}
+.calculate1{
+    margin-top: 30px;
+    margin-left: 40px;
+    width:95%;
+    align-items:center;
+    height:40rem;
+    background-color: white;
+    border-radius: 20px;
+}
+@media  (max-width:64rem) {
+    .calculate1{
+        width: 90%;
+    }
+    
+}
+.form{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.form input{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+#app{
+    width: 300px;
+    padding: 15px;
+    margin-top: 5px;
+}
+#use{
+    width: 200px;
+    padding: 15px;
+
+}
+#watt{
+    padding: 15px;
+}
+
+.btn{
+    margin-left: 00px;
+    background-color: cornflowerblue;
+    border:  cornflowerblue;
+    padding: 10px;
+    border-radius:20px;
+    color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+.btn:hover{
+    background-color:white;
+    color: cornflowerblue;
+    border: 0.1px solid cornflowerblue
+}
+.vl{
+    border-left: 2px solid cornflowerblue;
+    height: 350px;
+    margin-left: 700px;
+    margin-top:50px;
+}
+.iron{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Redressed;
+    font-size: 30px;
+}
+@media  (max-width:64rem) {
+    .iron{
+        font-size: 20px;
+    }
+    
+}
+.iron li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top:-350px; 
+
+}
+.machine{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Redressed;
+    font-size: 30px;
+}
+@media  (max-width:64rem) {
+    .machine{
+        font-size: 20px;
+    }
+    
+}
+.machine li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: -300px;
+}
+.vi{
+    border-left: 2px solid cornflowerblue;
+    height: 350px;
+    margin-left: 70px;
+    margin-top:-300px;
+}
+
+.texts{
+    margin-left: 950px;
+    margin-top:-400px;
+    font-family: Redressed;
+}
+@media  (max-width:64rem) {
+    .texts{
+        margin-left: 260px;
+        margin-top:-280px;
+    }
+    
+}
+h1{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size:30px
+    
+}
+@media  (max-width:64rem) {
+    h1{
+        font-size:20px;
+    }
+    
+}
+.num{
+    color: cornflowerblue;
+    font-size: 150px;
+    margin-top: 20px;
+}
+@media  (max-width:64rem) {
+    .num{
+        font-size: 100px;
+    }
+    
+}
+.watts{
+    margin-left: 200px;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top: -50px;
+}
+@media  (max-width:64rem) {
+    .watts{
+        font-size: 20px;
+    }
+    
+}
+.solar{
+    margin-left:-20px;
+    margin-top:40px;
+}
+.daily{
+    margin-top: 20px;
+    margin-left: -100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 30px;
+    border:1px solid cornflowerblue;
+}
+.daily:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+.weekly{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:1px solid cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 30px;
+}
+.weekly:hover{
+        background-color: cornflowerblue;
+        color: white;
+}
+.monthly{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 1px solid cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 30px;
+    
+}
+.monthly:hover{
+        background-color: cornflowerblue;
+        color: white;
+}
+section{
+    text-align: center;
+    background-color:white;
+    height: 400px;
+    font-family: redressed;
+    font-size:30px;
+}
+
+.free{
+    margin-top: 30px;
+    padding: 20px;
+}
+hr{
+    align-items:center;
+}
+.lorem{
+    font-weight: bold;
+    padding: 20px;
+    list-style: none;
+
+}
+.temp{
+    font-weight: lighter;
+    margin-left: 70px;
+    padding: 5px;
+}
+.last{
+    height: 250px;
+    background-color:rgb(197, 197, 197) ;
+    color: white;
+}
+.pos{
+    padding-top: 10px;
+}
+.perfect{
+    margin-top: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 50px;
+
+}
+@media  (max-width:64rem) {
+    .navbar{
+        font-size: 20px;
+    }
+    
+}
+footer{
+    margin-top: 240px;
+    height: 100px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    font-size:20px;
+}
+@media  (max-width:64rem) {
+    footer{
+        font-size: 20px;
+        
+    }
+    
+}
